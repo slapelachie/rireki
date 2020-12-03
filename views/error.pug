@@ -1,0 +1,11 @@
+extends template.pug
+
+block head
+    title #{code}: #{code_desc}
+    link(rel="stylesheet", href="/css/error.css")
+
+block body
+    div(id="error")
+        h1 #{code}
+        p #{code_desc}
+        a(href="/") Return Home

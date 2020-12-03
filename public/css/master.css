@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('/css/header.css');
+
+:root {
+    --bg: #1d1f2b;
+    --bg-dark: #151723;
+    --fg: #d6d8e8;
+    --accent: #8996cf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+

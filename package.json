@@ -7,9 +7,12 @@
     "express": "^4.17.1",
     "pug": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "debug": "nodemon --watch src"
   },
   "repository": {
     "type": "git",

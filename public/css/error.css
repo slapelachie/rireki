@@ -1,0 +1,23 @@
+@import url('/css/master.css');
+
+#error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#error h1{
+    font-size: 120px;
+    margin-bottom: -30px;
+}
+
+#error p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#error a {
+    font-size: 20px;
+}
